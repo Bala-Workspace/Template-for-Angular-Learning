@@ -1,0 +1,102 @@
+/* You can add global styles to this file, and also import other style files */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #8326D0;
+    color: white;
+}
+
+.header img {
+    margin: 6px 15px;
+}
+
+.footer {
+    height: 25px;
+    font-size: 16px;
+    background-color: #8326D0;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    border: 2px solid #8326D0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+#rdButton {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 34px;
+    padding: 4px 20px;
+}
+
+#dpButton {
+    padding: 6px 15px;
+}
+
+.form-control {
+    margin-right: 30px;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.table>thead>tr>th {
+    border-bottom: 2px solid #8326D0;
+    width: 5%;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+    /* border-top: 1px solid #8326D0; */
+    padding: 5px;
+}
+
+.pagination {
+    float: right;
+}
+
+#searchBar {
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7.5px 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 30px;
+}
+
+#searchBar:focus {
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    table {
+        border: 2px solid #8326D0;
+        margin-top: 0px !important;
+    }
+    #searchBar {
+        margin-bottom: 30px;
+    }
+    #searchBar:focus {
+        width: 100%;
+    }
+}
